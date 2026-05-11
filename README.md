@@ -51,6 +51,20 @@ För att skapa en färdig produktionsversion:
 npm run build
 ```
 
+## GitHub Pages och PWA
+
+React/Vite-versionen är förberedd för GitHub Pages via GitHub Actions.
+
+När deployen är klar bör appen finnas på:
+
+```text
+https://chipchop87.github.io/AriBel-Matematik/
+```
+
+GitHub Pages-versionen är också förberedd som PWA. När appen öppnas via länken ovan kan den installeras från webbläsaren, till exempel via **Installera app**, **Lägg till på startskärmen** eller motsvarande menyval.
+
+PWA-versionen har manifest och service worker, vilket gör att appens grundfiler kan cachelagras lokalt efter första besöket.
+
 ## Innehåll
 
 Spelet innehåller fyra nivåer:

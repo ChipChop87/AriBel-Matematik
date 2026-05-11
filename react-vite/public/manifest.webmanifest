@@ -1,10 +1,14 @@
 {
   "name": "AriBel-Matematik",
   "short_name": "AriBel Matte",
+  "description": "En svensk matematik-app för barn från F-klass till årskurs 3.",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#eef7f0",
   "theme_color": "#276b5d",
+  "categories": ["education", "kids", "games"],
   "icons": [
     {
       "src": "logo.svg",
