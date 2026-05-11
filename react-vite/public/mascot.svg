@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="Glad matterobot">
+  <path d="M210 396c88 0 160-70 160-156S298 84 210 84 50 154 50 240s72 156 160 156z" fill="#fffdf7" stroke="#17201d" stroke-width="10"/>
+  <path d="M126 190c0-46 38-84 84-84s84 38 84 84v60H126v-60z" fill="#d9f0e7" stroke="#17201d" stroke-width="10"/>
+  <circle cx="170" cy="200" r="16" fill="#17201d"/>
+  <circle cx="250" cy="200" r="16" fill="#17201d"/>
+  <path d="M174 246c18 20 54 20 72 0" fill="none" stroke="#17201d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M210 72V36" stroke="#17201d" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="210" cy="28" r="16" fill="#f4bd4a" stroke="#17201d" stroke-width="8"/>
+  <path d="M84 256l-42 34M336 256l42 34" stroke="#17201d" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="108" cy="318" r="30" fill="#5aa7c8" stroke="#17201d" stroke-width="8"/>
+  <circle cx="312" cy="318" r="30" fill="#ec6f55" stroke="#17201d" stroke-width="8"/>
+  <path d="M194 310h32M210 294v32" stroke="#17201d" stroke-width="8" stroke-linecap="round"/>
+</svg>

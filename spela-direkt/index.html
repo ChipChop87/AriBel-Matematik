@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#276b5d">
+    <title>AriBel-Matematik</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell" id="app">
+      <section class="hero-panel" data-screen="home">
+        <div class="brand-row">
+          <img src="assets/logo.svg" alt="" class="logo">
+          <div>
+            <p class="eyebrow">Svensk matte för F-klass till åk 3</p>
+            <h1>AriBel-Matematik</h1>
+          </div>
+        </div>
+
+        <div class="mascot-stage" aria-hidden="true">
+          <img src="assets/mascot.svg" alt="" class="mascot">
+          <div class="number-bubble bubble-a">7</div>
+          <div class="number-bubble bubble-b">+3</div>
+          <div class="number-bubble bubble-c">10</div>
+        </div>
+
+        <div class="home-actions">
+          <button class="primary-action" id="startButton">Starta</button>
+          <button class="secondary-action" id="resetButton">Nollställ framsteg</button>
+        </div>
+      </section>
+
+      <section class="level-panel hidden" data-screen="levels">
+        <header class="topbar">
+          <button class="icon-button" data-go-home aria-label="Till startsidan">⌂</button>
+          <div>
+            <p class="eyebrow">Välj bana</p>
+            <h2>Nivåer</h2>
+          </div>
+        </header>
+        <div class="level-grid" id="levelGrid"></div>
+      </section>
+
+      <section class="game-panel hidden" data-screen="game">
+        <header class="game-header">
+          <button class="icon-button" id="backToLevels" aria-label="Tillbaka till nivåer">‹</button>
+          <div>
+            <p class="eyebrow" id="levelLabel">Nivå</p>
+            <h2 id="activityTitle">Uppgift</h2>
+          </div>
+          <div class="score-pill" id="scorePill">0/0</div>
+        </header>
+
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <article class="question-card">
+          <div class="question-kind" id="questionKind">Rakna</div>
+          <div class="question-text" id="questionText"></div>
+          <div class="visual-row" id="visualRow" aria-hidden="true"></div>
+          <div class="answer-grid" id="answerGrid"></div>
+        </article>
+
+        <div class="feedback" id="feedback" role="status" aria-live="polite"></div>
+      </section>
+
+      <section class="result-panel hidden" data-screen="result">
+        <img src="assets/mascot.svg" alt="" class="result-mascot">
+        <p class="eyebrow">Klar bana</p>
+        <h2 id="resultTitle">Bra jobbat!</h2>
+        <div class="stars" id="stars"></div>
+        <p class="result-copy" id="resultCopy"></p>
+        <div class="home-actions">
+          <button class="primary-action" id="playAgainButton">Spela igen</button>
+          <button class="secondary-action" id="chooseLevelButton">Välj annan nivå</button>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="AriBel-Matematik">
+  <rect width="128" height="128" rx="28" fill="#276b5d"/>
+  <circle cx="42" cy="43" r="20" fill="#f4bd4a"/>
+  <circle cx="86" cy="43" r="20" fill="#ec6f55"/>
+  <rect x="30" y="76" width="68" height="18" rx="9" fill="#fffdf7"/>
+  <path d="M43 85h42" stroke="#17201d" stroke-width="6" stroke-linecap="round"/>
+  <path d="M37 42h10M81 42h10M64 24v38M45 81l38 0" stroke="#17201d" stroke-width="6" stroke-linecap="round"/>
+</svg>
